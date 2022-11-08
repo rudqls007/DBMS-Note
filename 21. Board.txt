@@ -1,0 +1,9 @@
+1. URI 정의
+                                      URI                            HTTP 메서드
+    1) 읽기                   /board/read?bno=번호                      GET                   지정된 번호의 게시물을 보여준다.
+    2) 삭제                   /board/remove                             POST                  게시물 삭제
+
+    3) 쓰기                   /board/write                              GET                   게시물 작성할 빈 화면 보여준다.
+                              /board/write                              POST                  작성한 게시물 저장
+    4) 수정                   /board/modify?bno=번호                    GET                   게시물 수정을 위해 읽어온다.
+                              /board/modify                             POST                  수정한 게시물 저장
